@@ -1,7 +1,9 @@
 # My-Portfolio
 My webpage portfolio created from scratch to showcase my skills and development thus far.
 
-Reference & credit: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
+Reference & credit: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons.
+
+Linked image stars.png to html in css.
 <!--A nice README is a good way to help people engage in the project as well. A project with nice README and screenshots will get the attention of users better since it’s a direct way to explain why this project matters, and why people should use and contribute to the project. Good README should also include enough details to help a new user get started, e.g. how to compile, how to install, and how to start integrating.
 -->
 Project Title: A little info about your project and/ or overview that explains what the project is about.
