@@ -3,6 +3,57 @@
     margin: 0;
 }
 
+header {
+    padding: 10px;
+    height: 70px;
+    font-family:fantasy;
+    background-color:rgb(16, 31, 235);
+    color:#ffa500;
+    font-size: 25px;
+}
+
+.serve h2 {
+    font-size: 50px;
+    color:#ffa500;
+    float:right;
+}
+.header {
+    height: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#ffa500;
+    font-size: 25px;
+    margin-top: -30px;
+   
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    float: right;
+  
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.content {
+    width: 65%;
+    display: inline-block;
+    margin-left: 20px;
+    color:white;
+}
+
+.social-media {
+    margin-right: 20px;
+    padding: 42px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#2589bd;
+}
 body {
     width: 100%;
     height: auto;
@@ -10,7 +61,7 @@ body {
     background-color:rgb(136, 121, 121);
 }
 .stars {
-    height: 300px;
+    height: 250px;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 25px;
@@ -26,36 +77,80 @@ body {
     right: 16px;
 }
 
-.header {
-    padding: 15px;
-    height: 100px;
-    font-family:fantasy;
-    background-color:rgb(16, 31, 235);
-    color:#ffa500
-}
-.a {
-    position: absolute;
-    float: right;
-}
 
 .serve {
-    float: right;
-    color: orange;
-    text-shadow: pink;
-    font-size:50px;
-    font:bold;
-    position:absolute;
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
-.header div nav {
-    padding-top: 0;
+.My-Bio {
+    margin-top: 270px;
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.My-Bio img {
+    max-height: 80px;
+}
+
+.My-Work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.My-Work img {
+    max-height:70px;
+}
+.My-Contact {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.My-Contact img {
+    max-height:70px;
+}
+
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+.Social {
+    margin-top: 270px;
     margin-right: 20px;
+    padding: 40px;
+    clear: both;
     float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#2589bd;
+}
+.Social-Facebook {
+    margin-bottom: 32px;
+    color: #ffffff;
+
+}
+.Social-Linkedin {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+.Social-Instagram {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
-.social {
-   float: right;
-}
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -69,6 +164,10 @@ body {
   .fa-facebook {
     background: #3B5998;
     color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
 .fa-linkedin {
@@ -82,3 +181,9 @@ body {
   }
 
   
+footer {
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:white;
+}
